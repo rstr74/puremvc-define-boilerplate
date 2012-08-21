@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <title>PureMVC Boilerplate for Native JavaScript - define()</title>
+        <meta name="author" content="Mike Britton" />
+        <meta http-equiv="Access-Control-Allow-Origin" content="*">
+    </head>
+    <body>
+        <section id="content">
+            <header id="header">
+                <h1>header</h1>
+            </header>
+            <section id="main">
+                Click here to see puremvc in action!
+            </section>
+            <footer id="footer">
+                footer
+            </footer>            
+        </section>
+        <footer id="info">
+            site footer / navbar
+        </footer>
+    </body>
+
+    <!-- PUREMVC LIBRARY -->
+    <script language="JavaScript" src="lib/puremvc-1.0.js"></script>
+
+    <!-- APPLICATION (VIEW/CONTROLLER RELATED) CONSTANTS -->
+    <script language="JavaScript" src="AppConstants.js"></script>
+
+    <!-- APPLICATION FACADE -->
+    <script language="JavaScript" src="ApplicationFacade.js"></script>
+    
+    <!-- PROXIES -->
+    <script language="JavaScript" src="model/proxy/BasicProxy.js"></script>
+    
+    <!-- COMMANDS -->
+    <script language="JavaScript" src="command/StartupCommand.js"></script>
+    <script language="JavaScript" src="command/ModelPrepCommand.js"></script>
+    <script language="JavaScript" src="command/ViewPrepCommand.js"></script>
+    <script language="JavaScript" src="command/BasicCommand.js"></script>
+    
+    <!-- VIEW COMPONENTS -->
+    <script language="JavaScript" src="view/component/BasicComponent.js"></script>
+    
+    <!-- MEDIATORS -->
+    <script language="JavaScript" src="view/mediator/BasicMediator.js"></script>
+
+    <!-- START THE APPLICATION -->
+    <script language="JavaScript">
+        // initialize the app when all DOM content has loaded.
+        document.addEventListener('DOMContentLoaded', function() {
+
+            // initialize the facade by retrieving an instance and calling startup
+            boilerplate.ApplicationFacade.getInstance(boilerplate.ApplicationFacade.NAME).startup();
+        });
+    </script>
+
+</html>
