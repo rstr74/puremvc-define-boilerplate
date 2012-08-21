@@ -2,7 +2,7 @@
  * @author Mike Britton
  * 
  * @class BasicMediator
- * @link https://github.com/mbritton/todopuremvc.git
+ * @link https://github.com/mbritton/puremvc-define-boilerplate.git
  * 
  * 
  */

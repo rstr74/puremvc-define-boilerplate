@@ -2,7 +2,7 @@
  * @author Mike Britton
  *
  * @class BasicProxy
- * @link https://github.com/mbritton/todopuremvc.git
+ * @link https://github.com/mbritton/puremvc-define-boilerplate.git
  *
  *
  */

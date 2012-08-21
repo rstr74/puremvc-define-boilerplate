@@ -2,7 +2,7 @@
  * @author Mike Britton
  * 
  * @class StartupCommand
- * @link https://github.com/mbritton/todopuremvc.git
+ * @link https://github.com/mbritton/puremvc-define-boilerplate.git
  * 
  * 
  */

@@ -2,7 +2,7 @@
  * @author Mike Britton
  *
  * @class ApplicationFacade
- * @link https://github.com/mbritton/todopuremvc.git
+ * @link https://github.com/mbritton/puremvc-define-boilerplate.git
  *
  * PureMVC JavaScript boilerplate for puremvc.define() approach
  *
